@@ -7,6 +7,8 @@ from dotenv import load_dotenv
 # Playwright imports
 from playwright.sync_api import sync_playwright, expect
 import time
+import subprocess
+import sys
 
 # Load environment variables
 load_dotenv()
